@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+* body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  color: #ffff;
+  text-shadow: 1px 1px #000000;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  background-image: url(img/HeaderPic.png);
+  height: 95%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titlebar {
+  position: fixed; /*Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.about {
+  background-color: #c9c6c8;
+  padding-bottom: 20px;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+.bioPic img {
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 25px;
+  height: auto;
+  float: left;
+}
+
+.bioInfo h3 {
+  padding-top: 25px;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.bioInfo p {
+  padding: 20px;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+
+.metalYoga video{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+.metalYoga .metalYogaInfo {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.metalYogaInfo p {
+  text-align: right;
+}
+
+.metalYogaInfo h2 {
+  text-align:center;
+  padding-bottom:15px;
+}
+
+.metalYogaInfo h3 {
+  text-align: center;
+}
+
+
+
+ .card {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.card p {
+  font-size: 1.2em;
+}
+
+.card-text a {
+  text-decoration: underline;
+  color: #000000;
+
+} 
+
+a:hover {
+  font-size: larger;
+}
