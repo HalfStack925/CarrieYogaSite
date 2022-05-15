@@ -105,7 +105,7 @@ html {
   padding: 20px;
 }
 
-.metalYogaInfo p {
+/* .metalYogaInfo p {
   text-align: right;
 }
 
@@ -116,7 +116,7 @@ html {
 
 .metalYogaInfo h3 {
   text-align: center;
-}
+} */
 
 
 
@@ -126,7 +126,8 @@ html {
   width: 80%;
   text-align: center;
   padding: 25px;
-  margin-left: 40px;
+  margin-left: 50px;
+  border: none;
 }
 
 .card p {
@@ -141,11 +142,4 @@ html {
 
 a:hover {
   font-size: larger;
-}
-
-.blog iframe{
-position: relative;
-width: 60%;
-height: 100%;
-padding: 25px;
 }
