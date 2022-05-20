@@ -11,6 +11,7 @@
 html {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -57,7 +58,7 @@ html {
   background-color: #c9c6c8;
   padding-bottom: 20px;
   position: relative;
-  padding: 0;
+  padding: 10px;
   text-align: center;
   /* overflow: hidden; */
   margin: 0;
@@ -86,49 +87,26 @@ html {
 }
 
 
-.metalYoga video{
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  padding: 25px;
-  
-}
-
-.metalYoga .metalYogaInfo {
-  position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  padding: 20px;
-}
-
-/* .metalYogaInfo p {
-  text-align: right;
-}
-
-.metalYogaInfo h2 {
-  text-align:center;
-  padding-bottom:15px;
-}
-
-.metalYogaInfo h3 {
-  text-align: center;
+/* video{
+ width: 60%;
+ height:50%;
+ margin-top: 15px;
+ 
 } */
 
 
+.card-group{
+ width:60%; 
+ margin-left: auto;
+ margin-right: auto;
+}
 
- .card {
-  display: block;
-  float: left;
-  width: 80%;
+.card {
+  display: inline-block;
   text-align: center;
-  padding: 25px;
-  margin-left: 50px;
   border: none;
 }
+
 
 .card p {
   font-size: 1.2em;
@@ -140,6 +118,36 @@ html {
 
 } 
 
-a:hover {
-  font-size: larger;
+.btn{
+  background-color: gray;
 }
+
+a:hover {
+  /* font-size: larger; */
+  background-color: gray;
+}
+
+video{
+  display: block;
+  margin-top: 15px;
+  padding-bottom: 25px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+}
+
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+ }
+
+.icon-bar a {
+ float: left;
+ width: 20%;
+ padding: 12px 0;
+ opacity:0.8;
+}
+
