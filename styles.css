@@ -39,8 +39,6 @@ html {
   width: 100%;
   background-image: url(img/HeaderPic.png);
   height: 95%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +46,7 @@ html {
 }
 
 .titlebar {
-  position: fixed; /*Fixed position - sit on top of the page */
+  position: fixed; 
   top: 0;
   width: 100%;
   transition: 0.2s;
@@ -60,7 +58,6 @@ html {
   position: relative;
   padding: 10px;
   text-align: center;
-  /* overflow: hidden; */
   margin: 0;
 }
 
@@ -86,15 +83,6 @@ html {
   margin-bottom: 0;
 }
 
-
-/* video{
- width: 60%;
- height:50%;
- margin-top: 15px;
- 
-} */
-
-
 .card-group{
  width:60%; 
  margin-left: auto;
@@ -106,7 +94,6 @@ html {
   text-align: center;
   border: none;
 }
-
 
 .card p {
   font-size: 1.2em;
@@ -123,8 +110,7 @@ html {
 }
 
 a:hover {
-  /* font-size: larger; */
-  background-color: gray;
+   background-color: gray;
 }
 
 video{
@@ -139,12 +125,12 @@ video{
 
 
 .icon-bar {
-  width: 100%;
   background-color: #555;
   overflow: auto;
  }
 
 .icon-bar a {
+ display: block; 
  float: left;
  width: 20%;
  padding: 12px 0;
